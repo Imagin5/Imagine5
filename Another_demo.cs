@@ -1,3 +1,7 @@
+public int MyProperty { get; set; }
+
+private void OnFailedToConnect(NetworkConnectionError error) {
+    MyProperty = 10;
 
 
 
