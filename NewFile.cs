@@ -1,6 +1,6 @@
 Changed the thing
 
-if(this != that)
+if(this != that && that = other)
 {
     
 }
