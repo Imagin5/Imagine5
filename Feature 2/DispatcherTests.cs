@@ -2,7 +2,7 @@ public class DispatcherTests
 {
 
     [Fact]
-    public void should_test_event1()
+    public void should_test_event1(int number)
     {
         add_number(number);
         add_number(number2);
@@ -22,9 +22,6 @@ public class DispatcherTests
         }
         else{
             third();
-        }
-        else{
-            fourth();
         }
     }
 }
